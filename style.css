@@ -1,0 +1,77 @@
+#world {
+  /*display: block;
+  position: absolute;*/
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 3;
+  width: 1080px;
+  height: 720px;
+  pointer-events: none;
+}
+#effects{
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  width: 1080px;
+  height: 720px;
+  pointer-events: none;
+}
+#background {
+  position: absolute;
+  width: auto;
+  height: auto; 
+  z-index: 1;
+  width: 1080px;
+  height: 720px;
+  pointer-events: none;
+  background-color: rgb(60, 0, 0);
+}
+#clickField{
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-color: whitesmoke;
+  z-index: 0;
+  width: 1080px;
+  height: 720px;
+}
+#worldWrapper {
+  border: rgb(0, 0, 0);
+  border-style: solid;
+  display: block;
+  margin: 0 auto;
+  width: 1080px;
+  height: 720px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#sidebarLeft{
+  border: rgb(47, 0, 255);
+  border-style: solid;
+  border-radius: 10px;
+  min-width: 100px;
+  max-width: 200px;
+}
+#sidebarRight{
+  border: rgb(47, 0, 255);
+  border-style: solid;
+  border-radius: 10px;
+  min-width: 100px;
+  max-width: 200px;
+}
+
+#wrapper{
+  display: flex;
+  flex-flow: row;
+}
+header{
+  text-align: center;
+}
+body {
+  background-color: rgb(59, 11, 3);
+  overflow: hidden;
+}

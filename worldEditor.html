@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Isometric World worldEditor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startGame()">
+    <div id="wrapper">
+        <div id="worldWrapper">
+            <canvas id="world" width="2160" height="1440"></canvas>
+            <canvas id="effects" width="2160" height="1440"></canvas>
+            <canvas id='background' width="2160" height="1440"></canvas>
+            <canvas id='clickField' width="2160" height="1440"></canvas>
+        </div>
+        <div id="sidebar">
+            <div id="fpsCounter">
+                <h1 id="fps"></h1>
+            </div>
+
+        </div>
+    </div>
+    <!--<script src="http://localhost:2992/webpack-dev-server.js"></script>-->
+
+    <!-- Isomer build -->
+    <script src="./isomer/dist/isomer.js"></script>
+
+    <!-- Test script -->
+    <script src="worldEditor.js"></script>
+
+</html>
